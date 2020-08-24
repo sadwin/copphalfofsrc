@@ -1,0 +1,93 @@
+.dialog-add .MuiPaper-root {
+  width: 550px;
+}
+.dialog-add__title.MuiDialogTitle-root {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 16px;
+  color: #778899;
+  padding: 16px 16px 16px;
+}
+.dialog-add__title .MuiIconButton-root {
+  margin: -7px -7px -7px 0;
+}
+.dialog-add__title .MuiIconButton-root .MuiSvgIcon-root {
+  width: 24px;
+  height: 24px;
+}
+.dialog-add .MuiDialogContent-root {
+  padding: 16px;
+}
+.dialog-add .MuiGrid-spacing-xs-4 > .MuiGrid-item {
+  padding: 0 16px;
+}
+.dialog-add .MuiFormControl-marginNormal {
+  margin-bottom: 9px;
+  margin-top: 0;
+}
+.dialog-add .MuiFormLabel-root {
+  font-size: 13px;
+  line-height: 16px;
+  color: #778899;
+}
+.dialog-add .MuiFormLabel-root.Mui-focused,
+.dialog-add .MuiFormLabel-root.Mui-error {
+  color: #778899;
+}
+.dialog-add .MuiGrid-spacing-xs-4 {
+  margin: 0 -16px 0;
+}
+.dialog-add .MuiInput-underline:before {
+  border-bottom: 1px solid #596E79;
+}
+.dialog-add .MuiInput-underline:after {
+  border-color: #007FBD;;
+}
+.dialog-add .MuiInput-underline.Mui-error::after {
+  border-bottom-color: #D0101B;
+}
+.dialog-add .MuiInputBase-input {
+  font-size: 12px;
+  line-height: 16px;
+}
+.dialog-add .MuiInputBase-input,
+.dialog-add .MuiAutocomplete-inputRoot {
+  height: 23px;
+  padding: 0;
+}
+.dialog-add .MuiFormLabel-asterisk {
+  margin-left: 5px;
+  color: #D0101B;
+}
+.dialog-add .MuiAutocomplete-root .MuiInputLabel-root {
+  transform: translate(0, 1.5px) scale(0.75);
+  transform-origin: top left;
+}
+.dialog-add .MuiAutocomplete-root .MuiIconButton-root {
+  margin-top: -8px;
+}
+.dialog-add .MuiFormHelperText-root.Mui-error {
+  margin-top: 1px;
+  font-size: 8px;
+  line-height: 8px;
+  height: 8px;
+  color: #D0101B;
+}
+.dialog-add__buttons {
+  padding-left: 50%;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin-top: 24px;
+}
+.dialog-add__buttons button {
+  width: calc(50% - 8px);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.dialog-delete .MuiPaper-root {
+  width: 360px;
+}

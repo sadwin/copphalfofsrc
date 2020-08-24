@@ -1,0 +1,16 @@
+.coordinates-cell {
+    display: flex;
+    flex-direction: row;
+}
+
+.coordinates-cell svg {
+    margin-right: 10px;
+}
+
+.cell-customized {
+    padding: 10px 70px 10px 0;
+}
+
+#facility-actions-menu > ul {
+    padding: 0;
+}

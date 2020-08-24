@@ -1,0 +1,96 @@
+.breadcrumbLink {
+    background: #F6F6F5;
+    border-radius: 15px;
+    padding-left: 14px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    color: #778899;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.breadcrumbParent {
+    margin: 16px;
+}
+
+.refreshBtn {
+    color: #778899;
+    width: 37px;
+    height: 34px;
+    border: 1px solid #CACCD1;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.addBtn {
+    color: #778899;
+    width: 37px;
+    height: 34px;
+    border: 1px solid #CACCD1;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.subBtn {
+    color: #778899;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #CACCD1;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.mainTable {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.table-page {
+  margin: 0 8px;
+}
+.table-wrap {
+  margin: 0 8px;
+}
+.table-wrap > .dx-widget {
+  min-height: calc(100vh - 131px);
+}
+.table-page .dx-checkbox-icon {
+  border-color: #007FBD;
+}
+.table-page .dx-checkbox-checked .dx-checkbox-icon {
+  background-color: #007FBD;
+}
+.table-page .dx-datagrid-rowsview .dx-select-checkboxes-hidden > tbody > tr > td > .dx-select-checkbox {
+  display: inline-block;
+}
+.table-page .dx-datagrid .dx-column-indicators {
+  float: left;
+  margin: 0 10px 0 0;
+  color: #000;
+}
+.table-page .dx-datagrid .dx-header-filter:not(.dx-header-filter-empty) {
+  color: #000;
+}
+.table__resource-link {
+  color: #007FBD;
+}
+.table__resource-link:hover {
+  text-decoration: none;
+}
+.table-page .dx-datagrid-headers {
+  color: #000;
+}
+.table-page .dx-datagrid-header-panel,
+.table-page .dx-datagrid-headers,
+.table-page .dx-datagrid-rowsview {
+  padding: 0;
+  margin: 0 8px;
+}

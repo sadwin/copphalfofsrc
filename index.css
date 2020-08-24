@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Century Gothic", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dx-datagrid {
+  font-family: "Montserrat", "Century Gothic", "Helvetica", "Arial", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-size: 14px;
+  background: #F6FBFF;
+}
+
+.MuiDrawer-root{
+  z-index: 1200 !important;
+}
+
+.sidebar_menuitem{
+  height: 30px;
+  font-size: 14px;
+  font-family: "Montserrat", "Century Gothic", "Helvetica", "Arial", sans-serif;
+}
+
+.sidebar_menuitem .menuitem_icon{
+  float: left;
+}
+
+.sidebar_menuitem .menuitem_icon svg{
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar_menuitem .menuitem_text{
+  float: left;
+  padding-left: 10px;
+  line-height: 24px;
+}

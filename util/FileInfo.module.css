@@ -1,0 +1,17 @@
+.root {
+    padding: 0.25rem;
+}
+
+.content {
+    width: 128px;
+    height: 128px;
+    border: 1px solid #d4d4d4;
+}
+
+.link {
+    padding: 0.25rem;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+}

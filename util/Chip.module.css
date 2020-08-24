@@ -1,0 +1,11 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    padding: 0.1rem 0.25rem;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 1rem !important;
+    border: 1px solid #d4d4d4;
+}
